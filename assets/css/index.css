@@ -1,0 +1,59 @@
+/* 底部固定区域 */
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+/* 图标 */
+.iconfont {
+    margin-right: 8px;
+}
+.layui-icon{
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+/* 内容主体区域 S */
+iframe {
+    width: 100%;
+    height: 100%;
+}
+/* 取消外面滚动条 */
+.layui-body {
+    overflow: hidden;
+}
+/* 美化 */
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+.layui-side-scroll .userinfo{
+    border-bottom: 1px solid #282b33;
+}
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+/* 文字头像 */
+.test-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
+/* 内容主体区域 E */
+
+/* 清楚css3的动画 */
+a{
+    transition: none !important;
+}
